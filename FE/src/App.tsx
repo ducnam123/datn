@@ -10,6 +10,7 @@ function App() {
           <Route path="/*" element={<RouteClient />} />
           <Route path="/auth/*" element={<RouteAuth />} />
           <Route path="/admin/*" element={<RouteAdmin />} />
+          <Route path="/client/*" element={<RouteAdmin />} />
         </Routes>
       </BrowserRouter>
     </>
