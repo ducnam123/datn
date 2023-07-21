@@ -19,6 +19,10 @@ export default {
         divideDark: "#272B30",
         backgroundDark: "#111315",
       },
+
+      fontFamily: {
+        EzLasso: ["Ez Lasso", "sans-serif"],
+      },
     },
     screens: {
       'sm': '640px',
